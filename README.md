@@ -10,7 +10,9 @@ NOTA:
 
 1. Se debe ejecutar el archivo (.sql) de script pendiente por ejecutar. "Script-CreaciónBD.sql"
 
-   Nota: En el script la el query para crear la BD "PruebaSD". La entidad (tabla relacional) se crea desde el modelo con code first EF Core.
+   Nota:
+   - En el script la el query para crear la BD "PruebaSD". La entidad (tabla relacional) se crea desde el modelo con code first EF Core.
+   - El archivo (.sql) se encuentra dentro de la solución. 
    
 3. SE EJECUTA EL SIGUIENTE COMANDO PARA GENERAR TODO EL MODELO DE DATOS EN LA BD (SQL SERVER)
    
