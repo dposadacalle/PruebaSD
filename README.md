@@ -8,10 +8,11 @@ NOTA:
 - en el proyecto de biblioca de clases "PruebaSD.Data", modificar en el metodo "OnConfiguring" la cadena de conexión  del servidor de BD donde se ejecuta
   Server=DESKTOP-7SMJ1SR\\SQLEXPRESS; DataBase=PruebaSD;Integrated Security=True;TrustServerCertificate=True
 
-1. Se debe ejecutar el archivo (.sql) de script pendiente por ejecuar:
+1. Se debe ejecutar el archivo (.sql) de script pendiente por ejecutar. "Script-CreaciónBD.sql"
+
+   Nota: En el script la el query para crear la BD "PruebaSD". La entidad (tabla relacional) se crea desde el modelo con code first EF Core.
    
 3. SE EJECUTA EL SIGUIENTE COMANDO PARA GENERAR TODO EL MODELO DE DATOS EN LA BD (SQL SERVER)
-
    
   ```bash
   Update-Database 
